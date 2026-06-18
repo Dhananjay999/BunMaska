@@ -37,7 +37,7 @@ export function Hero() {
 
         <Reveal delay={200}>
           <p className="mx-auto mt-5 max-w-2xl text-pretty text-sm sm:text-base text-muted-foreground md:text-lg">
-            A focused crew of engineers across Angular, backend, iOS and Android — designing,
+            A focused crew of engineers across Frontend, backend, iOS and Android — designing,
             shipping and scaling digital products end-to-end for ambitious teams.
           </p>
         </Reveal>

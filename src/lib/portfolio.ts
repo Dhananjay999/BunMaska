@@ -42,6 +42,13 @@ export type Stat = {
   display_order: number | null;
 };
 
+export type FaqItem = {
+  id: string;
+  question: string;
+  answer: string;
+  display_order: number | null;
+};
+
 export async function fetchTeam(): Promise<TeamMember[]> {
   const { data, error } = await supabase
     .from("team_members")
@@ -75,4 +82,13 @@ export async function fetchStats(): Promise<Stat[]> {
     .order("display_order", { ascending: true });
   if (error) throw error;
   return (data ?? []) as Stat[];
+}
+
+export async function fetchFaq(): Promise<FaqItem[]> {
+  const { data, error } = await supabase
+    .from("faq_items")
+    .select("*")
+    .order("display_order", { ascending: true });
+  if (error) throw error;
+  return (data ?? []) as FaqItem[];
 }

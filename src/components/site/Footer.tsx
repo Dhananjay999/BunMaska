@@ -10,6 +10,7 @@ export function Footer() {
           <a href="#services" className="hover:text-foreground">Services</a>
           <a href="#team" className="hover:text-foreground">Team</a>
           <a href="#projects" className="hover:text-foreground">Projects</a>
+          <a href="#faq" className="hover:text-foreground">Q&A</a>
           <a href="#contact" className="hover:text-foreground">Contact</a>
         </div>
       </div>

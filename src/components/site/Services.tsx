@@ -46,7 +46,6 @@ function ServiceCard({ service, index }: { service: Service; index: number }) {
   );
 }
 
-
 function SkeletonCard() {
   return <div className="h-44 animate-pulse rounded-2xl border border-border bg-card/40" />;
 }
