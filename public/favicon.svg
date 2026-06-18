@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="8" fill="url(#bm-gradient)"/>
+  <text
+    x="16"
+    y="21"
+    text-anchor="middle"
+    fill="#faf9f6"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-size="11"
+    font-weight="700"
+    letter-spacing="-0.02em"
+  >BM</text>
+  <defs>
+    <linearGradient id="bm-gradient" x1="4" y1="4" x2="28" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#8b6914"/>
+    </linearGradient>
+  </defs>
+</svg>
